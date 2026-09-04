@@ -16,7 +16,7 @@ depends=('arm-linux-gnueabihf-glibc-headers')
 
 _tarball="arm-gnu-toolchain-${_toolchain_ver}-x86_64-arm-none-linux-gnueabihf"
 source=("https://developer.arm.com/-/media/Files/downloads/gnu/${_toolchain_ver}/binrel/${_tarball}.tar.xz")
-sha256sums=('d70f3f763b4fd52b91ae031a83ec51cc52c7ecde9009b50cd198453754b861a9')
+sha256sums=('4f7a3edd7703f987cf8ba961ef89d3e5a24901c1da6581d5057ef33d842cdfb8')
 
 package() {
     cd "${srcdir}/${_tarball}"
